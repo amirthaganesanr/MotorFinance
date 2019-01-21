@@ -46,8 +46,8 @@ class Search extends Component {
             'z-index': '10'
         }
         return (
-            <div class="panel panel-default" style={divStyle}>
-                <div class="panel-heading">Quote Engine</div>
+            <div class="panel panel-primary" style={divStyle}>
+                <div class="panel-heading"><h2><b>Quote Engine</b></h2></div>
                 <div class="form-row panel-body">
                     <div class="form-group col col-md-3">
                         <label for="input1">Dealer Number:</label>
